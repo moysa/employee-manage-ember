@@ -20,7 +20,10 @@ module.exports = {
   env: {
     browser: true
   },
-  rules: {},
+  rules: {
+    'ember/use-brace-expansion': 'off',
+    'no-useless-escape': 'off'
+  },
   overrides: [
     // node files
     {
