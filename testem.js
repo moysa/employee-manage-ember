@@ -23,5 +23,8 @@ module.exports = {
         '--window-size=1440,900'
       ].filter(Boolean)
     }
+  // },
+  // browser_paths: {
+  //   Chrome: '/usr/bin/chromium'
   }
 };

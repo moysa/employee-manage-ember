@@ -33,6 +33,9 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember test`
 * `ember test --server`
 
+If testem can't find Chrome on you machine. Un-comment `browser_paths` config in `testem.js`
+and change the path to the Chrome/Chromium binary to reflect your setup.
+
 ### Linting
 
 * `npm run lint:hbs`
