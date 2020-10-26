@@ -1,7 +1,7 @@
-# employee-manager
+# Employee Manager
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Small app for managing employees as specified here:
+https://gist.github.com/vladaspasic/8dad78029a604bc97675f5568665cd67
 
 ## Prerequisites
 

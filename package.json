@@ -2,10 +2,10 @@
   "name": "employee-manager",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for employee-manager goes here",
+  "description": "Small app for emplyee managment",
   "repository": "",
   "license": "MIT",
-  "author": "",
+  "author": "Bojan Mojsilovic",
   "directories": {
     "doc": "doc",
     "test": "tests"
