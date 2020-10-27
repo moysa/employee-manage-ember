@@ -1,0 +1,15 @@
+<div id={{@id}} class="data-fetcher">
+  {{@label}}
+
+  {{#if @data }}
+    <p class="amount">
+      {{t @translationKey amount=@data}}
+    </p>
+  {{/if}}
+  <br/>
+  <ActionButton
+    @label={{@actionLabel}}
+    @color="grey"
+    @action={{@getData}}
+  />
+</div>

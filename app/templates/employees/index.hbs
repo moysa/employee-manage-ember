@@ -1,0 +1,46 @@
+<div>
+  <Section>
+    <SectionActions>
+      <LinkButton
+        @id="add_employee_button"
+        @label={{t "employees.add"}}
+        @color="green"
+        @route="employees.new"
+      />
+    </SectionActions>
+    <Pager
+      @page={{@model.page}}
+      @isFirstPage={{this.isFirstPage}}
+      @isLastPage={{this.isLastPage}}
+      @toPrevPage={{this.toPrevPage}}
+      @toNextPage={{this.toNextPage}}
+      @totalPages={{this.totalPages}}
+    />
+    <EmployeeList
+      @id="employee_list"
+      @model={{@model}}
+    />
+  </Section>
+
+  <Section>
+    <DataFetcher
+      @id="total_salary_calculator"
+      @label={{t "employees.totalSalary"}}
+      @actionLabel={{t "employees.calculate"}}
+      @translationKey="money.dollars"
+      @data={{this.totalSalary}}
+      @getData={{this.getTotalSalary}}
+    />
+  </Section>
+
+  <Section>
+    <DataFetcher
+      @id="average_salary_calculator"
+      @label={{t "employees.averageSalary"}}
+      @actionLabel={{t "employees.calculate"}}
+      @translationKey="money.dollars"
+      @data={{this.averageSalary}}
+      @getData={{this.getAverageSalary}}
+    />
+  </Section>
+</div>

@@ -1,0 +1,21 @@
+{{#unless @isFirstPage }}
+  <ActionButton
+    @id="prev_button"
+    @label="<"
+    @color="grey"
+    @action={{@toPrevPage}}
+  />
+{{/unless}}
+
+<span id="page_count">
+  {{t "employees.pager" current=@page total=@totalPages}}
+</span>
+
+{{#unless @isLastPage }}
+  <ActionButton
+    @id="next_button"
+    @label=">"
+    @color="grey"
+    @action={{@toNextPage}}
+  />
+{{/unless}}

@@ -1,0 +1,16 @@
+<div id={{@id}}>
+  <h2>{{t "employees.title"}}</h2>
+
+  {{#each @model.employees as |employee|}}
+    <LinkTo
+      @id="employee_{{employee.id}}"
+      @route="employees.show"
+      @model={{employee}}
+      class="list_entry"
+    >
+      {{employee.firstName}} {{employee.lastName}}
+    </LinkTo>
+  {{else}}
+    <h3 id="no_employees_message">{{t "employees.none"}}</h3>
+  {{/each}}
+</div>
