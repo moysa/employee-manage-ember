@@ -1,0 +1,39 @@
+<Section>
+  <SectionActions>
+    <LinkButton
+      @id="edit_employee_button"
+      @label={{t "employees.show.edit"}}
+      @color="green"
+      @route="employees.edit"
+      @model={{@model}}
+    />
+    <ActionButton
+      @id="delete_employee_button"
+      @label={{t "employees.show.delete"}}
+      @color="red"
+      @action={{fn this.deleteEmployee @model}}
+    />
+  </SectionActions>
+
+  <h2 id="full_name">
+    {{@model.firstName}} {{@model.lastName}}
+  </h2>
+
+  <p id="email">
+    {{@model.email}}
+  </p>
+
+  <h3 id="address_label">
+    {{t "employees.show.address"}}
+  </h3>
+  <address  id="address_value">
+    {{@model.address}}
+  </address>
+
+  <h3 id="salary_label">
+    {{t "employees.show.salary"}}
+  </h3>
+  <div id="salary_value">
+    {{t "money.dollars" amount=@model.salary}}
+  </div>
+</Section>
