@@ -1,0 +1,46 @@
+app:
+  title: Employee Manager
+employees:
+  title: Employees
+  none: No employees on record
+  add: Add Employee
+  pager: page {current} of {total}
+  totalSalary: Total Salary
+  averageSalary: Average Salary
+  calculate: Calculate
+  show:
+    delete: Delete
+    edit: Edit
+    address: Address
+    salary: Salary
+  form:
+    new: Add New Employee
+    update: Update
+    create: Add
+    cancel: Cancel
+    firstName: First Name
+    lastName: Last Name
+    email: Email
+    address: Address
+    salary: Salary
+footer:
+  description: made by Bojan Mojsilovic
+header:
+  linkHome: Back to employee list
+alert:
+  confirm: Are you sure?
+validation:
+  invalid:
+    firstName: 'First name is too short'
+    lastName: 'Last name is too short'
+    email: 'Email is not valid'
+    address: 'Address is too short'
+    salary: 'Salary is not valid'
+  missing:
+    firstName: 'First name is required'
+    lastName: 'Last name is required'
+    email: 'Email is required'
+    address: 'Address is required'
+    salary: 'Salary is required'
+money:
+  dollars: $ {amount}

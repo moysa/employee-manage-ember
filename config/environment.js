@@ -20,7 +20,9 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+
+    storageKey: 'employee'
   };
 
   if (environment === 'development') {
@@ -34,6 +36,7 @@ module.exports = function(environment) {
   if (environment === 'test') {
     // Testem prefers this...
     ENV.locationType = 'none';
+    ENV.storageKey = 'employee_test';
 
     // keep test console output quieter
     ENV.APP.LOG_ACTIVE_GENERATION = false;
