@@ -1207,16 +1207,16 @@
   _exports.default = Router;
   Router.map(function () {
     this.route('employees', {
-      path: '/employees'
+      path: '/'
     }, () => {
       this.route('employees.new', {
-        path: '/employees/new'
+        path: '/new'
       });
       this.route('employees.show', {
-        path: '/employees/:employee_id'
+        path: '/:employee_id'
       }, () => {
         this.route('employees.edit', {
-          path: '/employees/:employee_id/edit'
+          path: '/:employee_id/edit'
         });
       });
     });
