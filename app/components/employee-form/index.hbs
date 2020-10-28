@@ -1,0 +1,65 @@
+<div id={{@id}}>
+  <h3>{{@title}}</h3>
+  <form  class="employee_form" {{on 'submit' this.submitForm}}>
+    <div class="form_input">
+      <label for="firstName">{{t "employees.form.firstName"}}</label>
+      <Input
+        @id="firstName"
+        @type="text"
+        @value={{@model.firstName}}
+        name="firstName"
+      />
+      <span id="error_firstName" class="error">{{this.firstNameError}}</span>
+    </div>
+    <div class="form_input">
+      <label for="lastName">{{t "employees.form.lastName"}}</label>
+      <Input
+        @id="lastName"
+        @type="text"
+        @value={{@model.lastName}}
+        name="lastName"
+      />
+      <span id="error_lastName" class="error">{{this.lastNameError}}</span>
+    </div>
+
+    <div class="form_input">
+      <label for="email">{{t "employees.form.email"}}</label>
+      <Input
+        @id="email"
+        @type="email"
+        @value={{@model.email}}
+        name="email"
+      />
+      <span id="error_email" class="error">{{this.emailError}}</span>
+    </div>
+
+    <div class="form_input">
+      <label for="address">{{t "employees.form.address"}}</label>
+      <Input
+        @id="address"
+        @type="address"
+        @value={{@model.address}}
+        name="address"
+      />
+      <span id="error_address" class="error">{{this.addressError}}</span>
+    </div>
+
+    <div class="form_input">
+      <label for="salary">{{t "employees.form.salary"}}</label>
+      <Input
+        @id="salary"
+        @type="money"
+        @value={{@model.salary}}
+        name="salary"
+      />
+      <span id="error_salary" class="error">{{this.salaryError}}</span>
+    </div>
+
+    <Input
+      @id="employee_submit"
+      @type="submit"
+      @value={{@submitLabel}}
+      class="submit_button"
+    />
+  </form>
+</div>

@@ -1,0 +1,16 @@
+<Section>
+  <SectionActions>
+    <ActionButton
+      @label={{t "employees.form.cancel"}}
+      @color="red"
+      @action={{this.cancelCreate}}
+    />
+  </SectionActions>
+  <EmployeeForm
+    @id="new_employee_form"
+    @title={{t "employees.form.new"}}
+    @submitLabel={{t "employees.form.create"}}
+    @submitCallback={{this.addEmployee}}
+    @model={{@model}}
+  />
+</Section>
