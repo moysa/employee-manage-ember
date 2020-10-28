@@ -1,0 +1,26 @@
+.employee_form {
+  width: 300px;
+  margin: 30px auto;
+}
+
+.form_input {
+  height: 70px;
+}
+
+.form_input input {
+  display: block;
+  width: 300px;
+  margin: 10px 0px 0px;
+}
+
+.form_input label {
+  float: left;
+}
+
+.error {
+  color: red;
+  float: left;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
