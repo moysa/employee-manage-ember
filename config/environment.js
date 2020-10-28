@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'employee-manager',
     environment,
-    rootURL: '/',
+    rootURL: '/employee-manage-ember/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
