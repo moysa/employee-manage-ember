@@ -165,7 +165,7 @@
   >
     {{@label}}
   </button>
-
+  
   */
   {"id":"52IM4u7X","block":"{\"symbols\":[\"@id\",\"@color\",\"@action\",\"@label\"],\"statements\":[[11,\"button\"],[16,1,[32,1]],[16,0,[31,[\"button button_\",[32,2]]]],[24,4,\"button\"],[4,[38,0],[\"click\",[32,3]],null],[12],[2,\"\\n  \"],[1,[32,4]],[2,\"\\n\"],[13],[2,\"\\n\"]],\"hasEval\":false,\"upvars\":[\"on\"]}","meta":{"moduleName":"employee-manager/components/action-button/index.hbs"}});
 
@@ -185,7 +185,7 @@
   /*
     <div id={{@id}} class="data-fetcher">
     {{@label}}
-
+  
     {{#if @data }}
       <p class="amount">
         {{t @translationKey amount=@data}}
@@ -198,7 +198,7 @@
       @action={{@getData}}
     />
   </div>
-
+  
   */
   {"id":"KnCK4Nmf","block":"{\"symbols\":[\"@data\",\"@translationKey\",\"@id\",\"@label\",\"@actionLabel\",\"@getData\"],\"statements\":[[10,\"div\"],[15,1,[32,3]],[14,0,\"data-fetcher\"],[12],[2,\"\\n  \"],[1,[32,4]],[2,\"\\n\\n\"],[6,[37,1],[[32,1]],null,[[\"default\"],[{\"statements\":[[2,\"    \"],[10,\"p\"],[14,0,\"amount\"],[12],[2,\"\\n      \"],[1,[30,[36,0],[[32,2]],[[\"amount\"],[[32,1]]]]],[2,\"\\n    \"],[13],[2,\"\\n\"]],\"parameters\":[]}]]],[2,\"  \"],[10,\"br\"],[12],[13],[2,\"\\n  \"],[8,\"action-button\",[],[[\"@label\",\"@color\",\"@action\"],[[32,5],\"grey\",[32,6]]],null],[2,\"\\n\"],[13],[2,\"\\n\"]],\"hasEval\":false,\"upvars\":[\"t\",\"if\"]}","meta":{"moduleName":"employee-manager/components/data-fetcher/index.hbs"}});
 
@@ -249,7 +249,7 @@
         />
         <span id="error_lastName" class="error">{{this.lastNameError}}</span>
       </div>
-
+  
       <div class="form_input">
         <label for="email">{{t "employees.form.email"}}</label>
         <Input
@@ -260,7 +260,7 @@
         />
         <span id="error_email" class="error">{{this.emailError}}</span>
       </div>
-
+  
       <div class="form_input">
         <label for="address">{{t "employees.form.address"}}</label>
         <Input
@@ -271,7 +271,7 @@
         />
         <span id="error_address" class="error">{{this.addressError}}</span>
       </div>
-
+  
       <div class="form_input">
         <label for="salary">{{t "employees.form.salary"}}</label>
         <Input
@@ -282,7 +282,7 @@
         />
         <span id="error_salary" class="error">{{this.salaryError}}</span>
       </div>
-
+  
       <Input
         @id="employee_submit"
         @type="submit"
@@ -291,7 +291,7 @@
       />
     </form>
   </div>
-
+  
   */
   {"id":"Qtd5rX11","block":"{\"symbols\":[\"@id\",\"@title\",\"@model\",\"@submitLabel\"],\"statements\":[[10,\"div\"],[15,1,[32,1]],[12],[2,\"\\n  \"],[10,\"h3\"],[12],[1,[32,2]],[13],[2,\"\\n  \"],[11,\"form\"],[24,0,\"employee_form\"],[4,[38,0],[\"submit\",[32,0,[\"submitForm\"]]],null],[12],[2,\"\\n    \"],[10,\"div\"],[14,0,\"form_input\"],[12],[2,\"\\n      \"],[10,\"label\"],[14,\"for\",\"firstName\"],[12],[1,[30,[36,1],[\"employees.form.firstName\"],null]],[13],[2,\"\\n      \"],[8,\"input\",[[24,3,\"firstName\"]],[[\"@id\",\"@type\",\"@value\"],[\"firstName\",\"text\",[32,3,[\"firstName\"]]]],null],[2,\"\\n      \"],[10,\"span\"],[14,1,\"error_firstName\"],[14,0,\"error\"],[12],[1,[32,0,[\"firstNameError\"]]],[13],[2,\"\\n    \"],[13],[2,\"\\n    \"],[10,\"div\"],[14,0,\"form_input\"],[12],[2,\"\\n      \"],[10,\"label\"],[14,\"for\",\"lastName\"],[12],[1,[30,[36,1],[\"employees.form.lastName\"],null]],[13],[2,\"\\n      \"],[8,\"input\",[[24,3,\"lastName\"]],[[\"@id\",\"@type\",\"@value\"],[\"lastName\",\"text\",[32,3,[\"lastName\"]]]],null],[2,\"\\n      \"],[10,\"span\"],[14,1,\"error_lastName\"],[14,0,\"error\"],[12],[1,[32,0,[\"lastNameError\"]]],[13],[2,\"\\n    \"],[13],[2,\"\\n\\n    \"],[10,\"div\"],[14,0,\"form_input\"],[12],[2,\"\\n      \"],[10,\"label\"],[14,\"for\",\"email\"],[12],[1,[30,[36,1],[\"employees.form.email\"],null]],[13],[2,\"\\n      \"],[8,\"input\",[[24,3,\"email\"]],[[\"@id\",\"@type\",\"@value\"],[\"email\",\"email\",[32,3,[\"email\"]]]],null],[2,\"\\n      \"],[10,\"span\"],[14,1,\"error_email\"],[14,0,\"error\"],[12],[1,[32,0,[\"emailError\"]]],[13],[2,\"\\n    \"],[13],[2,\"\\n\\n    \"],[10,\"div\"],[14,0,\"form_input\"],[12],[2,\"\\n      \"],[10,\"label\"],[14,\"for\",\"address\"],[12],[1,[30,[36,1],[\"employees.form.address\"],null]],[13],[2,\"\\n      \"],[8,\"input\",[[24,3,\"address\"]],[[\"@id\",\"@type\",\"@value\"],[\"address\",\"address\",[32,3,[\"address\"]]]],null],[2,\"\\n      \"],[10,\"span\"],[14,1,\"error_address\"],[14,0,\"error\"],[12],[1,[32,0,[\"addressError\"]]],[13],[2,\"\\n    \"],[13],[2,\"\\n\\n    \"],[10,\"div\"],[14,0,\"form_input\"],[12],[2,\"\\n      \"],[10,\"label\"],[14,\"for\",\"salary\"],[12],[1,[30,[36,1],[\"employees.form.salary\"],null]],[13],[2,\"\\n      \"],[8,\"input\",[[24,3,\"salary\"]],[[\"@id\",\"@type\",\"@value\"],[\"salary\",\"money\",[32,3,[\"salary\"]]]],null],[2,\"\\n      \"],[10,\"span\"],[14,1,\"error_salary\"],[14,0,\"error\"],[12],[1,[32,0,[\"salaryError\"]]],[13],[2,\"\\n    \"],[13],[2,\"\\n\\n    \"],[8,\"input\",[[24,0,\"submit_button\"]],[[\"@id\",\"@type\",\"@value\"],[\"employee_submit\",\"submit\",[32,4]]],null],[2,\"\\n  \"],[13],[2,\"\\n\"],[13],[2,\"\\n\"]],\"hasEval\":false,\"upvars\":[\"on\",\"t\"]}","meta":{"moduleName":"employee-manager/components/employee-form/index.hbs"}});
 
@@ -367,7 +367,7 @@
   /*
     <div id={{@id}}>
     <h2>{{t "employees.title"}}</h2>
-
+  
     {{#each @model.employees as |employee|}}
       <LinkTo
         @id="employee_{{employee.id}}"
@@ -381,7 +381,7 @@
       <h3 id="no_employees_message">{{t "employees.none"}}</h3>
     {{/each}}
   </div>
-
+  
   */
   {"id":"d/pg2PmR","block":"{\"symbols\":[\"employee\",\"@id\",\"@model\"],\"statements\":[[10,\"div\"],[15,1,[32,2]],[12],[2,\"\\n  \"],[10,\"h2\"],[12],[1,[30,[36,0],[\"employees.title\"],null]],[13],[2,\"\\n\\n\"],[6,[37,2],[[30,[36,1],[[30,[36,1],[[32,3,[\"employees\"]]],null]],null]],null,[[\"default\",\"else\"],[{\"statements\":[[2,\"    \"],[8,\"link-to\",[[24,0,\"list_entry\"]],[[\"@id\",\"@route\",\"@model\"],[[31,[\"employee_\",[32,1,[\"id\"]]]],\"employees.show\",[32,1]]],[[\"default\"],[{\"statements\":[[2,\"\\n      \"],[1,[32,1,[\"firstName\"]]],[2,\" \"],[1,[32,1,[\"lastName\"]]],[2,\"\\n    \"]],\"parameters\":[]}]]],[2,\"\\n\"]],\"parameters\":[1]},{\"statements\":[[2,\"    \"],[10,\"h3\"],[14,1,\"no_employees_message\"],[12],[1,[30,[36,0],[\"employees.none\"],null]],[13],[2,\"\\n\"]],\"parameters\":[]}]]],[13],[2,\"\\n\"]],\"hasEval\":false,\"upvars\":[\"t\",\"-track-array\",\"each\"]}","meta":{"moduleName":"employee-manager/components/employee-list/index.hbs"}});
 
@@ -402,7 +402,7 @@
     <div class="footer">
     {{t "footer.description"}}
   </div>
-
+  
   */
   {"id":"k/Vz0uUz","block":"{\"symbols\":[],\"statements\":[[10,\"div\"],[14,0,\"footer\"],[12],[2,\"\\n  \"],[1,[30,[36,0],[\"footer.description\"],null]],[2,\"\\n\"],[13],[2,\"\\n\"]],\"hasEval\":false,\"upvars\":[\"t\"]}","meta":{"moduleName":"employee-manager/components/footer/index.hbs"}});
 
@@ -428,7 +428,7 @@
       <h3>{{t "app.title"}}</h3>
     </div>
   </div>
-
+  
   */
   {"id":"BpbwM0ON","block":"{\"symbols\":[],\"statements\":[[10,\"div\"],[14,0,\"header\"],[12],[2,\"\\n  \"],[10,\"div\"],[14,0,\"header_content\"],[12],[2,\"\\n    \"],[8,\"link-to\",[[24,0,\"breadcrumb\"]],[[\"@id\",\"@route\"],[\"link_home\",\"employees.index\"]],[[\"default\"],[{\"statements\":[[2,\"\\n      \"],[1,[30,[36,0],[\"header.linkHome\"],null]],[2,\"\\n    \"]],\"parameters\":[]}]]],[2,\"\\n    \"],[10,\"h3\"],[12],[1,[30,[36,0],[\"app.title\"],null]],[13],[2,\"\\n  \"],[13],[2,\"\\n\"],[13],[2,\"\\n\"]],\"hasEval\":false,\"upvars\":[\"t\"]}","meta":{"moduleName":"employee-manager/components/header/index.hbs"}});
 
@@ -464,7 +464,7 @@
       {{@label}}
     </LinkTo>
   {{/if}}
-
+  
   */
   {"id":"tPp7DyoD","block":"{\"symbols\":[\"@route\",\"@id\",\"@color\",\"@label\",\"@model\"],\"statements\":[[6,[37,0],[[32,5]],null,[[\"default\",\"else\"],[{\"statements\":[[2,\"  \"],[8,\"link-to\",[[16,1,[32,2]],[16,0,[31,[\"button button_\",[32,3]]]]],[[\"@route\",\"@model\"],[[32,1],[32,5]]],[[\"default\"],[{\"statements\":[[2,\"\\n    \"],[1,[32,4]],[2,\"\\n  \"]],\"parameters\":[]}]]],[2,\"\\n\"]],\"parameters\":[]},{\"statements\":[[2,\"  \"],[8,\"link-to\",[[16,1,[32,2]],[16,0,[31,[\"button button_\",[32,3]]]]],[[\"@route\"],[[32,1]]],[[\"default\"],[{\"statements\":[[2,\"\\n    \"],[1,[32,4]],[2,\"\\n  \"]],\"parameters\":[]}]]],[2,\"\\n\"]],\"parameters\":[]}]]]],\"hasEval\":false,\"upvars\":[\"if\"]}","meta":{"moduleName":"employee-manager/components/link-button/index.hbs"}});
 
@@ -490,11 +490,11 @@
       @action={{@toPrevPage}}
     />
   {{/unless}}
-
+  
   <span id="page_count">
     {{t "employees.pager" current=@page total=@totalPages}}
   </span>
-
+  
   {{#unless @isLastPage }}
     <ActionButton
       @id="next_button"
@@ -503,7 +503,7 @@
       @action={{@toNextPage}}
     />
   {{/unless}}
-
+  
   */
   {"id":"9ah6EPyE","block":"{\"symbols\":[\"@toNextPage\",\"@toPrevPage\",\"@isFirstPage\",\"@totalPages\",\"@page\",\"@isLastPage\"],\"statements\":[[6,[37,0],[[32,3]],null,[[\"default\"],[{\"statements\":[[2,\"  \"],[8,\"action-button\",[],[[\"@id\",\"@label\",\"@color\",\"@action\"],[\"prev_button\",\"<\",\"grey\",[32,2]]],null],[2,\"\\n\"]],\"parameters\":[]}]]],[2,\"\\n\"],[10,\"span\"],[14,1,\"page_count\"],[12],[2,\"\\n  \"],[1,[30,[36,1],[\"employees.pager\"],[[\"current\",\"total\"],[[32,5],[32,4]]]]],[2,\"\\n\"],[13],[2,\"\\n\\n\"],[6,[37,0],[[32,6]],null,[[\"default\"],[{\"statements\":[[2,\"  \"],[8,\"action-button\",[],[[\"@id\",\"@label\",\"@color\",\"@action\"],[\"next_button\",\">\",\"grey\",[32,1]]],null],[2,\"\\n\"]],\"parameters\":[]}]]]],\"hasEval\":false,\"upvars\":[\"unless\",\"t\"]}","meta":{"moduleName":"employee-manager/components/pager/index.hbs"}});
 
@@ -524,7 +524,7 @@
     <div class="employee_actions">
     {{yield}}
   </div>
-
+  
   */
   {"id":"XWREGJQc","block":"{\"symbols\":[\"&default\"],\"statements\":[[10,\"div\"],[14,0,\"employee_actions\"],[12],[2,\"\\n  \"],[18,1,null],[2,\"\\n\"],[13],[2,\"\\n\"]],\"hasEval\":false,\"upvars\":[]}","meta":{"moduleName":"employee-manager/components/section-actions/index.hbs"}});
 
@@ -545,7 +545,7 @@
     <div class="section">
     {{yield}}
   </div>
-
+  
   */
   {"id":"02F3GLu9","block":"{\"symbols\":[\"&default\"],\"statements\":[[10,\"div\"],[14,0,\"section\"],[12],[2,\"\\n  \"],[18,1,null],[2,\"\\n\"],[13],[2,\"\\n\"]],\"hasEval\":false,\"upvars\":[]}","meta":{"moduleName":"employee-manager/components/section/index.hbs"}});
 
@@ -1000,7 +1000,7 @@
 
   /*
     This code initializes EmberData in an Ember application.
-
+  
     It ensures that the `store` service is automatically injected
     as the `store` property on all routes and controllers.
   */
@@ -1220,6 +1220,9 @@
         });
       });
     });
+  });
+  Router.reopen({
+    location: 'hash'
   });
 });
 ;define("employee-manager/routes/employees/index", ["exports"], function (_exports) {
@@ -1804,7 +1807,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("employee-manager/app")["default"].create({"name":"employee-manager","version":"0.0.0+c0b4c4e0"});
+            require("employee-manager/app")["default"].create({"name":"employee-manager","version":"0.0.0+52644397"});
           }
-
+        
 //# sourceMappingURL=employee-manager.map
