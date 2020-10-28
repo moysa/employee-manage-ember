@@ -1807,7 +1807,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("employee-manager/app")["default"].create({"name":"employee-manager","version":"0.0.0+52644397"});
+            require("employee-manager/app")["default"].create({"name":"employee-manager","version":"0.0.0+18e9feb7"});
           }
         
 //# sourceMappingURL=employee-manager.map
