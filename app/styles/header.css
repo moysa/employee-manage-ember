@@ -1,0 +1,17 @@
+.header{
+  height: 60px;
+}
+
+.header_content{
+  max-width: 600px;
+  margin: auto;
+}
+
+.header_content h3{
+  display: inline;
+  margin-left: 77px;
+}
+
+.breadcrumb.active {
+  visibility: hidden;
+}
